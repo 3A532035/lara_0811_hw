@@ -13,4 +13,7 @@
 
 Route::get('/','Homecontroller@index');
 
+Route::get('/about','Aboutcontroller@about');
+
+Route::get('/news','Newscontroller@news');
 
