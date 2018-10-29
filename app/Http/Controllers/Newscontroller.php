@@ -7,4 +7,9 @@ use Illuminate\Http\Request;
 class Newscontroller extends Controller
 {
     //
+
+    public function news()
+    {
+        return view('news');
+    }
 }
